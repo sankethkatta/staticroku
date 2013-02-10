@@ -4,6 +4,8 @@ Self-Hosted Heroku for Static Apps
 
 ## On Your Server:
 
+Works with any Ubuntu Server.
+
 ```
 git clone https://github.com/sankethkatta/staticroku.git
 cd staticroku
@@ -12,7 +14,6 @@ cd staticroku
 
 ##Local Computer:
 
-### New
 ```
 git clone <username>@<servername>:/opt/git/app.git my_site_name
 cd my_site_name
@@ -22,4 +23,3 @@ git add index.html
 git commit -m 'index file'
 git push
 ```
-
