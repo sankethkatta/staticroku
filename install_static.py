@@ -32,7 +32,7 @@ static_commands = [
 	'yes | sudo apt-get install nginx',
 	'sudo rm /etc/nginx/sites-enabled/*',
 	'sudo cp static_nginx /etc/nginx/sites-enabled',
-	'sudo service nginx start']
+	'sudo service nginx restart']
 
 log_file = open('log.txt', 'w+')
 
