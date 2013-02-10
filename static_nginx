@@ -2,8 +2,12 @@ server {
     listen 80;
     root /var/www/app/;
 
+    location /.git {
+        deny all;
+    }
+
     location / {
-      index index.html;
+        index index.html;
     }
 
 }
