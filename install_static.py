@@ -42,6 +42,6 @@ execute_commands(static_commands, log_file)
 print """System Installed!:
 Git URL: username@<server_host>:/opt/git/app.git"""
 
-log_file.write('Log file for '+app_name+':\n')
+log_file.write('Log file for installation':\n')
 
 log_file.close()
