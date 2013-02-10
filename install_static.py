@@ -39,8 +39,9 @@ log_file = open('log.txt', 'w+')
 execute_commands(git_commands, log_file)
 execute_commands(static_commands, log_file)
 
-print """System Installed!:
-Git URL: username@<server_host>:/opt/git/app.git"""
+print """
+System Installed!:
+Git URL: <username>@<server_host>:/opt/git/app.git"""
 
 log_file.write('Log file for installation\n')
 
