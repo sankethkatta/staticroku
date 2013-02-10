@@ -1,7 +1,7 @@
 server {
     listen 80;
 
-    location /.git {
+    location /.git/ {
         deny all;
     }
 
